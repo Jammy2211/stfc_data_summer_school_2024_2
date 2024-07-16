@@ -52,7 +52,7 @@ and produced errors. If you encounter an error, try refreshing the page in your 
 
 However, if the URL does not build successfully follow the local installation instructions below.
 
-https://mybinder.org/v2/gh/Jammy2211/autolens_workspace/release
+https://mybinder.org/v2/gh/Jammy2211/stfc_data_summer_school_2024_2/main
 
 Local Installation
 ------------------
