@@ -47,17 +47,18 @@ Binder Web Server
 
 The lectures can be run via a Binder web server by using the URL below.
 
-Tests performed for this URL were unreliable on Tuesday 16th July, whereby the binder was unable to build
-and produced errors. If you encounter an error, try refreshing the page in your web browser.
-
-However, if the URL does not build successfully follow the local installation instructions below.
+If you encounter an error, try refreshing the page in your web browser.
 
 https://mybinder.org/v2/gh/Jammy2211/stfc_data_summer_school_2024_2/main
+
+If the URL does not build successfully follow the local installation instructions below.
 
 Local Installation
 ------------------
 
-We strongly recommend that you install **PyAutoFit** in a
+The next option is to install **PyAutoFit** locally, the software which the HowToFit lectures use.
+
+I recommend that you install **PyAutoFit** in a
 `Python virtual environment <https://www.geeksforgeeks.org/python-virtual-environment/>`_, with the link attached
 describing what a virtual environment is and how to create one.
 
@@ -70,14 +71,28 @@ the installation has clean dependencies):
 
 If this raises no errors **PyAutoFit** is installed!
 
-Next, clone the ``autofit workspace`` (the line ``--depth 1`` clones only the most recent branch on
-the ``autofit_workspace``, reducing the download size):
+Next, clone the ``https://github.com/Jammy2211/stfc_data_summer_school_2024_2`` (the line ``--depth 1`` clones only
+the most recent branch, reducing the download size):
 
 .. code-block:: bash
 
    cd /path/on/your/computer/you/want/to/put/the/autofit_workspace
-   git clone https://github.com/Jammy2211/stfc_data_summer_school_2024 --depth 1
+   git clone https://github.com/Jammy2211/stfc_data_summer_school_2024_2 --depth 1
    cd autofit_workspace
 
-The workspace contains the HowToFit lectures, which are Jupyter notebooks that can be run using your
+The workspace contains the lectures, which are Jupyter notebooks that can be run using your
 standard Jupiter notebook environment.
+
+GitHub Pages
+------------
+
+If you have unsolvable installation issues, the lectures are also available as a series of webpages on GitHub Pages.
+
+They are not interactive, given you are not running a Jupyter notebook, but they contain all the content of the
+lectures and the images and text printed in the notebook cells.
+
+https://github.com/Jammy2211/stfc_data_summer_school_2024_2
+
+You can view the first notebook here:
+
+https://github.com/Jammy2211/stfc_data_summer_school_2024_2/blob/main/tutorial_1_models.ipynb
